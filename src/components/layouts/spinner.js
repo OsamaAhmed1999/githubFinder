@@ -4,7 +4,7 @@ import spinner from './spinner.gif'
 const Spinner = () => {
     return (
         <Fragment>
-            <img src={spinner} alt="Loding..." />
+            <img src={spinner} alt="Loding..." style={{width:'200px', margin:'auto', display:'block'}}/>
             
             
         </Fragment>
